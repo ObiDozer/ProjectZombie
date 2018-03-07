@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33814528321690858}
   - component: {fileID: 23945173196894176}
   - component: {fileID: 114955633252740314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PistolHands
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 20539803096227430}
   - component: {fileID: 81859681817054702}
   - component: {fileID: 124017742238381318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -56,7 +56,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4983670480053834}
   - component: {fileID: 114868896415697268}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WeaponHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 4997928366279592}
   - component: {fileID: 33315989352359730}
   - component: {fileID: 23383909925383348}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,12 +92,13 @@ GameObject:
   - component: {fileID: 136194214344643934}
   - component: {fileID: 114040768945252534}
   - component: {fileID: 114709054388219190}
-  - component: {fileID: 114900991250779998}
   - component: {fileID: 114029306654720276}
   - component: {fileID: 114248833555524520}
-  m_Layer: 0
+  - component: {fileID: 114767722007994850}
+  - component: {fileID: 114900991250779998}
+  m_Layer: 8
   m_Name: RigidBodyFPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,7 +112,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4165927628683948}
   - component: {fileID: 114799771537095836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Common-Handgun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,6 +469,25 @@ MonoBehaviour:
     i15: 4
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114767722007994850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1987935237801308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649d81469379845f8b9a53d8ae52412d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon:
+    name: Leifs pistol
+    damage: 10
+    range: 100
+  cam: {fileID: 20539803096227430}
+  mask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!114 &114799771537095836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -511,7 +531,8 @@ MonoBehaviour:
   - {fileID: 114040768945252534}
   - {fileID: 81859681817054702}
   - {fileID: 20539803096227430}
-  - {fileID: 0}
+  - {fileID: 114767722007994850}
+  remoteLayerName: RemotePlayer
 --- !u!114 &114955633252740314
 MonoBehaviour:
   m_ObjectHideFlags: 1
