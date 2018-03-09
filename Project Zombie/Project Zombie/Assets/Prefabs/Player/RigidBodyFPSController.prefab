@@ -92,10 +92,6 @@ GameObject:
   - component: {fileID: 136194214344643934}
   - component: {fileID: 114040768945252534}
   - component: {fileID: 114709054388219190}
-  - component: {fileID: 114029306654720276}
-  - component: {fileID: 114248833555524520}
-  - component: {fileID: 114767722007994850}
-  - component: {fileID: 114900991250779998}
   m_Layer: 8
   m_Name: RigidBodyFPSController
   m_TagString: Player
@@ -338,27 +334,6 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1627345576672342}
   m_Enabled: 1
---- !u!114 &114029306654720276
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987935237801308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 3
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 2
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 10
-  m_InterpolateMovement: 1
 --- !u!114 &114040768945252534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -418,25 +393,6 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
---- !u!114 &114248833555524520
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987935237801308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1267208747, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target: {fileID: 4935893086740354}
-  m_ChildIndex: 0
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 1
-  m_RotationSyncCompression: 0
-  m_MovementThreshold: 0.001
-  m_InterpolateRotation: 0.3
-  m_InterpolateMovement: 0
 --- !u!114 &114709054388219190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -469,25 +425,6 @@ MonoBehaviour:
     i15: 4
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114767722007994850
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987935237801308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 649d81469379845f8b9a53d8ae52412d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon:
-    name: Leifs pistol
-    damage: 10
-    range: 100
-  cam: {fileID: 20539803096227430}
-  mask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &114799771537095836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -516,23 +453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amount: 0.03
   smoothAmount: 6
---- !u!114 &114900991250779998
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987935237801308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9985a48925058064caf269720490a80b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  compnentsToDisable:
-  - {fileID: 114040768945252534}
-  - {fileID: 81859681817054702}
-  - {fileID: 20539803096227430}
-  - {fileID: 114767722007994850}
-  remoteLayerName: RemotePlayer
 --- !u!114 &114955633252740314
 MonoBehaviour:
   m_ObjectHideFlags: 1
