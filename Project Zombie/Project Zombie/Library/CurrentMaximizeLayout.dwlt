@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 899
-  m_MinSize: {x: 709, y: 492}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MinSize: {x: 711, y: 492}
+  m_MaxSize: {x: 18006, y: 14042}
   vertical: 0
-  controlID: 43
+  controlID: 93
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,9 +154,9 @@ MonoBehaviour:
     height: 878
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eeeafdff
-    m_LastClickedID: -136466
-    m_ExpandedIDs: 4e8afffff8fbffff0afcffff0efcffff1afcffff000000007e360000
+    m_SelectedIDs: 34dbfeff
+    m_LastClickedID: -74956
+    m_ExpandedIDs: 42e9feff44e9feff0efcffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 44
+  controlID: 94
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,9 +262,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 288.66956, y: -1.3866575, z: 205.67627}
+    m_Target: {x: 285.78003, y: -1.7637286, z: 177.91838}
     speed: 2
-    m_Value: {x: 288.66956, y: -1.3866575, z: 205.67627}
+    m_Value: {x: 285.78003, y: -1.7637286, z: 177.91838}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -287,9 +287,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.111043714, y: -0.025384044, z: 0.0028368162, w: 0.99348724}
+    m_Target: {x: 0.13917953, y: -0.42526737, z: 0.06636646, w: 0.8918364}
     speed: 2
-    m_Value: {x: 0.111043714, y: -0.025384044, z: 0.0028368162, w: 0.99348724}
+    m_Value: {x: 0.13917953, y: -0.42526737, z: 0.06636646, w: 0.8918364}
   m_Size:
     m_Target: 11.365751
     speed: 2
@@ -394,20 +394,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Weapons/Guns/Hand Guns/Glock-18
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Weapons/Guns/Hand Guns/Glock-18
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/johannaierace/Desktop/Projects/ProjectZombie/Project Zombie/Project
     Zombie
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 699}
-    m_SelectedIDs: a6400000
-    m_LastClickedID: 16550
-    m_ExpandedIDs: 00000000e6290000f6290000a22e0000a42e0000b82e0000be2e0000642f0000d62f00004a300000503000006a3100006e310000ac310000c63100007e3200007033000076330000c0330000d2330000e6330000f2360000f4360000f6360000f8360000023700000a370000ca370000ffffff7f
+    scrollPos: {x: 0, y: 75}
+    m_SelectedIDs: 38390000
+    m_LastClickedID: 14648
+    m_ExpandedIDs: 00000000e2290000f2290000ba2b0000f42e0000f62e00000a2f0000102f0000ba2f00007e300000f4300000fa300000483100004e3200005232000090320000aa320000e6320000643300005c340000623400009e340000ae340000c0340000d4340000c8370000ca370000cc370000ce370000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -435,7 +435,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6290000f6290000a22e0000a42e0000b82e0000be2e0000642f0000d62f00004a300000503000006a3100006e310000ac3100007e3200007033000076330000c0330000d2330000e6330000f2360000f4360000f6360000f8360000
+    m_ExpandedIDs: 00000000e2290000f2290000ba2b0000f42e0000f62e00000a2f0000102f0000ba2f00007e300000f4300000fa300000483100004e3200005232000090320000aa320000e6320000643300005c340000623400009e340000ae340000c0340000d4340000c8370000ca370000cc370000ce370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -460,8 +460,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: eeeafdff
-    m_LastClickedInstanceID: -136466
+    m_SelectedInstanceIDs: 34dbfeff
+    m_LastClickedInstanceID: -74956
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 60290000
     m_RenameOverlay:
@@ -479,7 +479,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -512,8 +512,8 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 292
-    y: 631
+    x: 293
+    y: 630
     width: 1199
     height: 342
 --- !u!114 &12
@@ -534,8 +534,8 @@ MonoBehaviour:
     y: 0
     width: 427
     height: 899
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
